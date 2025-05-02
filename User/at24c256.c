@@ -26,7 +26,7 @@ I2C_StatusTypeDef AT24C256_WriteByte(uint8_t i2c_controller_num, uint8_t dev_add
     switch (i2c_controller_num)
     {
         case I2C1_ID:
-            status = I2C_Write(i2c_controller_num, dev_addr, 0, tx_data, 3);
+            status = I2C_Write(i2c_controller_num, dev_addr, 0, tx_data, 3, 2);
             if (status != I2C_OK) return status;
             printf("Byte transmit is HAL OK!! now continue\n");
             break;
@@ -66,7 +66,7 @@ I2C_StatusTypeDef AT24C256_WriteBytes(uint8_t i2c_controller_num, uint8_t dev_ad
     switch (i2c_controller_num)
     {
         case I2C1_ID :
-            status = I2C_Write(i2c_controller_num, dev_addr, 0, tx_data, size+2);
+            status = I2C_Write(i2c_controller_num, dev_addr, 0, tx_data, size+2, 2);
             if (status != I2C_OK) return status;
             printf("Byte transmit is HAL OK!! now continue\n");
             break;
@@ -99,14 +99,14 @@ I2C_StatusTypeDef AT24C256_ReadByte(uint8_t i2c_controller_num, uint8_t dev_addr
     switch (i2c_controller_num)
     {
         case I2C1_ID :
-            status = I2C_Write(i2c_controller_num, dev_addr, 0, rx_data_addr, 2);
-            if (status != I2C_OK) return status;
-            printf("Byte transmit is HAL OK!! now continue\n");
+            // status = I2C_Write(i2c_controller_num, dev_addr, 0, rx_data_addr, 2);
+            // if (status != I2C_OK) return status;
+            // printf("Byte transmit is HAL OK!! now continue\n");
 
             dev_addr = AT24C256_READ;
             HAL_Delay(5);
 
-            status = I2C_Read(i2c_controller_num, dev_addr, 0, data, 1);
+            status = I2C_Read(i2c_controller_num, dev_addr, rx_data_addr, data, 1, 2);
             if (status != I2C_OK) return status;
             printf("read AT24C256 memory is HAL OK!! now continue\n");
             printf("Byte receive is HAL OK!! now continue\n");
@@ -151,14 +151,14 @@ I2C_StatusTypeDef AT24C256_ReadBytes(uint8_t i2c_controller_num, uint8_t dev_add
     switch (i2c_controller_num)
     {
         case I2C1_ID :
-            status = I2C_Write(i2c_controller_num, dev_addr, 0, rx_data_addr, 2);
-            if (status != I2C_OK) return status;
-            printf("Byte transmit is HAL OK!! now continue\n");
+            // status = I2C_Write(i2c_controller_num, dev_addr, 0, rx_data_addr, 2);
+            // if (status != I2C_OK) return status;
+            // printf("Byte transmit is HAL OK!! now continue\n");
 
             dev_addr = AT24C256_READ;
             HAL_Delay(5);
 
-            status = I2C_Read(i2c_controller_num, dev_addr, 0, data, size);
+            status = I2C_Read(i2c_controller_num, dev_addr, rx_data_addr, data, size, 2);
             if (status != I2C_OK) return status;
             printf("read AT24C256 memory is HAL OK!! now continue\n");
             printf("Bytes receive is HAL OK!! now continue\n");

@@ -23,7 +23,7 @@ I2C_StatusTypeDef I2C_Init(uint8_t i2c_controller_num)
     return I2C_OK;
   }
   
-  I2C_StatusTypeDef I2C_Write(uint8_t i2c_controller_num, uint8_t dev_addr, uint8_t reg_addr, uint8_t *data, uint16_t size)
+  I2C_StatusTypeDef I2C_Write(uint8_t i2c_controller_num, uint8_t dev_addr, uint8_t *reg_addr, uint8_t *data, uint16_t size, uint16_t addr_size)
   {
     switch (i2c_controller_num)
     {
@@ -46,12 +46,12 @@ I2C_StatusTypeDef I2C_Init(uint8_t i2c_controller_num)
     return I2C_OK;
   }
   
-I2C_StatusTypeDef I2C_Read(uint8_t i2c_controller_num, uint8_t dev_addr, uint8_t reg_addr, uint8_t *data, uint16_t size)
+I2C_StatusTypeDef I2C_Read(uint8_t i2c_controller_num, uint8_t dev_addr, uint8_t *reg_addr, uint8_t *data, uint16_t size, uint16_t addr_size)
 {   
     switch (i2c_controller_num)
     {
         case I2C1_ID :
-            if(HAL_I2C_Master_Transmit(&hi2c1, dev_addr, &reg_addr, 1, I2C_TIMEOUT) != HAL_OK)
+            if(HAL_I2C_Master_Transmit(&hi2c1, dev_addr, reg_addr, addr_size, I2C_TIMEOUT) != HAL_OK)
             {
                 return I2C_ERROR;
             }
@@ -66,7 +66,6 @@ I2C_StatusTypeDef I2C_Read(uint8_t i2c_controller_num, uint8_t dev_addr, uint8_t
             // {
             //     return I2C_ERROR;
             // }
-  
             // if(HAL_I2C_Master_Receive(&hi2c2, dev_addr, data, size, I2C_TIMEOUT_MS) != HAL_OK)
             // {
             //     return I2C_ERROR;

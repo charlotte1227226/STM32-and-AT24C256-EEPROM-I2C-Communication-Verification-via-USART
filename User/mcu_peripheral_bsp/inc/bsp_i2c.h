@@ -34,8 +34,8 @@ typedef enum
   
 /* Function Prototypes */
 I2C_StatusTypeDef I2C_Init(uint8_t i2c_controller_num);
-I2C_StatusTypeDef I2C_Write(uint8_t i2c_controller_num, uint8_t dev_addr, uint8_t reg_addr, uint8_t *data, uint16_t size);
-I2C_StatusTypeDef I2C_Read(uint8_t i2c_controller_num, uint8_t dev_addr, uint8_t reg_addr, uint8_t *data, uint16_t size);
+I2C_StatusTypeDef I2C_Write(uint8_t i2c_controller_num, uint8_t dev_addr, uint8_t *reg_addr, uint8_t *data, uint16_t size, uint16_t addr_size);
+I2C_StatusTypeDef I2C_Read(uint8_t i2c_controller_num, uint8_t dev_addr, uint8_t *reg_addr, uint8_t *data, uint16_t size, uint16_t addr_size);
 #ifdef __cplusplus
 }
 #endif

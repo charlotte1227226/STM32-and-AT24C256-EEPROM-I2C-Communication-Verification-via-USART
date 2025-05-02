@@ -134,7 +134,6 @@ int main(void)
     else{
       printf("Data3: EEPROM mismatch: expected 0x%02X%02X, got 0x%02X%02X\n", write_data3[0], write_data3[1], read_data3[0], read_data3[1]);
     }
-
   }
   /* USER CODE BEGIN 3 */
   /* USER CODE END 3 */
