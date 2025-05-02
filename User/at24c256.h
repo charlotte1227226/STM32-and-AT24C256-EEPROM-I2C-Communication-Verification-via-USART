@@ -20,6 +20,11 @@
 #define AT24C256_BASE  0x50
 #define AT24C256_WRITE ((AT24C256_BASE << 1) | 0)
 #define AT24C256_READ  ((AT24C256_BASE << 1) | 1)
+
+/* AT24C256 EEPROM page size */
+#define AT24C256_PAGE_SIZE 64
+#define AT24C256_TOTAL_SIZE 32768
+
 //---------------------------------------------------------------------
 I2C_StatusTypeDef AT24C256_WriteByte(uint8_t i2c_controller_num, uint8_t dev_addr, uint16_t reg_addr, uint8_t *data);
 I2C_StatusTypeDef AT24C256_WriteBytes(uint8_t i2c_controller_num, uint8_t dev_addr, uint16_t reg_addr, uint8_t *data, uint16_t size);

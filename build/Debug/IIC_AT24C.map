@@ -603,7 +603,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x58 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0x1de CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0x19b CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/IIC_AT24C.dir/Core/Src/gpio.c.obj
  .group         0x00000000        0xc CMakeFiles/IIC_AT24C.dir/Core/Src/gpio.c.obj
  .group         0x00000000        0xc CMakeFiles/IIC_AT24C.dir/Core/Src/gpio.c.obj
@@ -3892,7 +3892,7 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_rnglists
                 0x00000979       0x13 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
 
-.debug_macro    0x00000000    0x1881c
+.debug_macro    0x00000000    0x18828
  .debug_macro   0x00000000      0x1bb CMakeFiles/IIC_AT24C.dir/User/mcu_peripheral_bsp/src/bsp_i2c.c.obj
  .debug_macro   0x000001bb      0xaa8 CMakeFiles/IIC_AT24C.dir/User/mcu_peripheral_bsp/src/bsp_i2c.c.obj
  .debug_macro   0x00000c63      0x21b CMakeFiles/IIC_AT24C.dir/User/mcu_peripheral_bsp/src/bsp_i2c.c.obj
@@ -3944,58 +3944,58 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_macro   0x000157a9      0x1de CMakeFiles/IIC_AT24C.dir/User/at24c256.c.obj
  .debug_macro   0x00015987      0x369 CMakeFiles/IIC_AT24C.dir/User/at24c256.c.obj
  .debug_macro   0x00015cf0      0x19b CMakeFiles/IIC_AT24C.dir/User/at24c256.c.obj
- .debug_macro   0x00015e8b       0x16 CMakeFiles/IIC_AT24C.dir/User/at24c256.c.obj
- .debug_macro   0x00015ea1      0x302 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
- .debug_macro   0x000161a3       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
- .debug_macro   0x000161b9       0x35 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
- .debug_macro   0x000161ee       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
- .debug_macro   0x000161fe       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
- .debug_macro   0x00016214       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
- .debug_macro   0x0001622a      0x170 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
- .debug_macro   0x0001639a       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
- .debug_macro   0x000163b0       0x20 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
- .debug_macro   0x000163d0      0x1ac CMakeFiles/IIC_AT24C.dir/Core/Src/gpio.c.obj
- .debug_macro   0x0001657c      0x1ac CMakeFiles/IIC_AT24C.dir/Core/Src/i2c.c.obj
- .debug_macro   0x00016728      0x1ac CMakeFiles/IIC_AT24C.dir/Core/Src/usart.c.obj
- .debug_macro   0x000168d4      0x1ac CMakeFiles/IIC_AT24C.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x00016a80      0x1a2 CMakeFiles/IIC_AT24C.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_macro   0x00016c22      0x1e6 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_macro   0x00016e08      0x1bc CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_macro   0x00016fc4      0x1aa CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_macro   0x0001716e      0x203 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_macro   0x00017371      0x198 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_macro   0x00017509      0x199 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_macro   0x000176a2      0x198 CMakeFiles/IIC_AT24C.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_macro   0x0001783a       0xec CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00017926       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00017936       0x6e CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x000179a4       0x94 CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00017a38       0x57 CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00017a8f      0x23c CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00017ccb      0x265 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017f30       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017f40       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017f50       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017f60       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017f70       0x1c CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017f8c       0x52 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00017fde       0x22 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018000       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018010       0x52 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018062       0xcf CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018131       0x1c CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0001814d       0x3d CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0001818a       0x35 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x000181bf      0x12c CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x000182eb       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018301       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018317       0x29 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018340      0x242 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018582       0x1c CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0001859e       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x000185ae      0x18a CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00018738       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0001874e       0xce CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00015e8b       0x22 CMakeFiles/IIC_AT24C.dir/User/at24c256.c.obj
+ .debug_macro   0x00015ead      0x302 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+ .debug_macro   0x000161af       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+ .debug_macro   0x000161c5       0x35 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+ .debug_macro   0x000161fa       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+ .debug_macro   0x0001620a       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+ .debug_macro   0x00016220       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+ .debug_macro   0x00016236      0x170 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+ .debug_macro   0x000163a6       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+ .debug_macro   0x000163bc       0x20 CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+ .debug_macro   0x000163dc      0x1ac CMakeFiles/IIC_AT24C.dir/Core/Src/gpio.c.obj
+ .debug_macro   0x00016588      0x1ac CMakeFiles/IIC_AT24C.dir/Core/Src/i2c.c.obj
+ .debug_macro   0x00016734      0x1ac CMakeFiles/IIC_AT24C.dir/Core/Src/usart.c.obj
+ .debug_macro   0x000168e0      0x1ac CMakeFiles/IIC_AT24C.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00016a8c      0x1a2 CMakeFiles/IIC_AT24C.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_macro   0x00016c2e      0x1e6 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_macro   0x00016e14      0x1bc CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_macro   0x00016fd0      0x1aa CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_macro   0x0001717a      0x203 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_macro   0x0001737d      0x198 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_macro   0x00017515      0x199 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_macro   0x000176ae      0x198 CMakeFiles/IIC_AT24C.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_macro   0x00017846       0xec CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00017932       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00017942       0x6e CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x000179b0       0x94 CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00017a44       0x57 CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00017a9b      0x23c CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00017cd7      0x265 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017f3c       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017f4c       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017f5c       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017f6c       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017f7c       0x1c CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017f98       0x52 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00017fea       0x22 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0001800c       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0001801c       0x52 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0001806e       0xcf CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0001813d       0x1c CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00018159       0x3d CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00018196       0x35 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000181cb      0x12c CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000182f7       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0001830d       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00018323       0x29 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0001834c      0x242 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0001858e       0x1c CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000185aa       0x10 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000185ba      0x18a CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00018744       0x16 CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0001875a       0xce CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
 
 .debug_line     0x00000000    0x10671
  .debug_line    0x00000000      0x7c0 CMakeFiles/IIC_AT24C.dir/User/mcu_peripheral_bsp/src/bsp_i2c.c.obj
@@ -4028,64 +4028,64 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_line    0x00010257      0x21c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-isattyr.o)
  .debug_line    0x00010473      0x1fe C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
 
-.debug_str      0x00000000    0x87559
+.debug_str      0x00000000    0x87589
  .debug_str     0x00000000    0x7e412 CMakeFiles/IIC_AT24C.dir/User/mcu_peripheral_bsp/src/bsp_i2c.c.obj
                               0x7e7f7 (size before relaxing)
- .debug_str     0x0007e412     0x33e9 CMakeFiles/IIC_AT24C.dir/User/at24c256.c.obj
-                              0x816c6 (size before relaxing)
- .debug_str     0x000817fb      0xb7c CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
-                              0x823f2 (size before relaxing)
- .debug_str     0x00082377       0x86 CMakeFiles/IIC_AT24C.dir/Core/Src/gpio.c.obj
+ .debug_str     0x0007e412     0x3419 CMakeFiles/IIC_AT24C.dir/User/at24c256.c.obj
+                              0x816f6 (size before relaxing)
+ .debug_str     0x0008182b      0xb7c CMakeFiles/IIC_AT24C.dir/Core/Src/main.c.obj
+                              0x82422 (size before relaxing)
+ .debug_str     0x000823a7       0x86 CMakeFiles/IIC_AT24C.dir/Core/Src/gpio.c.obj
                               0x7e273 (size before relaxing)
- .debug_str     0x000823fd       0xd3 CMakeFiles/IIC_AT24C.dir/Core/Src/i2c.c.obj
+ .debug_str     0x0008242d       0xd3 CMakeFiles/IIC_AT24C.dir/Core/Src/i2c.c.obj
                               0x7e7d3 (size before relaxing)
- .debug_str     0x000824d0       0x7e CMakeFiles/IIC_AT24C.dir/Core/Src/usart.c.obj
+ .debug_str     0x00082500       0x7e CMakeFiles/IIC_AT24C.dir/Core/Src/usart.c.obj
                               0x7e761 (size before relaxing)
- .debug_str     0x0008254e       0xf6 CMakeFiles/IIC_AT24C.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x0008257e       0xf6 CMakeFiles/IIC_AT24C.dir/Core/Src/stm32f1xx_it.c.obj
                               0x7e2b6 (size before relaxing)
- .debug_str     0x00082644       0x87 CMakeFiles/IIC_AT24C.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x00082674       0x87 CMakeFiles/IIC_AT24C.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                               0x7e2a1 (size before relaxing)
- .debug_str     0x000826cb      0xc03 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_str     0x000826fb      0xc03 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
                               0x7f393 (size before relaxing)
- .debug_str     0x000832ce      0x619 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x000832fe      0x619 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                               0x7e9ff (size before relaxing)
- .debug_str     0x000838e7      0x252 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x00083917      0x252 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                               0x7e6fb (size before relaxing)
- .debug_str     0x00083b39      0x34f CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x00083b69      0x34f CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                               0x7e652 (size before relaxing)
- .debug_str     0x00083e88      0x2e8 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x00083eb8      0x2e8 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                               0x7e94b (size before relaxing)
- .debug_str     0x00084170      0x642 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x000841a0      0x642 CMakeFiles/IIC_AT24C.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                               0x7ed6c (size before relaxing)
- .debug_str     0x000847b2       0x7f CMakeFiles/IIC_AT24C.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x000847e2       0x7f CMakeFiles/IIC_AT24C.dir/Core/Src/system_stm32f1xx.c.obj
                               0x7e2cc (size before relaxing)
- .debug_str     0x00084831      0x509 CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00084861      0x509 CMakeFiles/IIC_AT24C.dir/Core/Src/sysmem.c.obj
                                0x5a95 (size before relaxing)
- .debug_str     0x00084d3a     0x1c5d CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00084d6a     0x1c5d CMakeFiles/IIC_AT24C.dir/Core/Src/syscalls.c.obj
                                0x9322 (size before relaxing)
- .debug_str     0x00086997       0x62 CMakeFiles/IIC_AT24C.dir/startup_stm32f103xb.s.obj
+ .debug_str     0x000869c7       0x62 CMakeFiles/IIC_AT24C.dir/startup_stm32f103xb.s.obj
                                  0x9e (size before relaxing)
- .debug_str     0x000869f9      0x431 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-printf.o)
+ .debug_str     0x00086a29      0x431 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-printf.o)
                                 0x564 (size before relaxing)
- .debug_str     0x00086e2a       0xe0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-puts.o)
+ .debug_str     0x00086e5a       0xe0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-puts.o)
                                 0x5b4 (size before relaxing)
- .debug_str     0x00086f0a       0x69 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wbuf.o)
+ .debug_str     0x00086f3a       0x69 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wbuf.o)
                                 0x55f (size before relaxing)
- .debug_str     0x00086f73       0x6e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wsetup.o)
+ .debug_str     0x00086fa3       0x6e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-wsetup.o)
                                 0x55a (size before relaxing)
- .debug_str     0x00086fe1       0x58 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
+ .debug_str     0x00087011       0x58 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-errno.o)
                                 0x523 (size before relaxing)
- .debug_str     0x00087039      0x29d C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
+ .debug_str     0x00087069      0x29d C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf.o)
                                 0x8da (size before relaxing)
- .debug_str     0x000872d6       0xba C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_str     0x00087306       0xba C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-nano-vfprintf_i.o)
                                 0x808 (size before relaxing)
- .debug_str     0x00087390       0x9c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-makebuf.o)
+ .debug_str     0x000873c0       0x9c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-makebuf.o)
                                 0x6bc (size before relaxing)
- .debug_str     0x0008742c       0x5f C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fstatr.o)
+ .debug_str     0x0008745c       0x5f C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-fstatr.o)
                                 0x671 (size before relaxing)
- .debug_str     0x0008748b       0x5a C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-isattyr.o)
+ .debug_str     0x000874bb       0x5a C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-isattyr.o)
                                 0x529 (size before relaxing)
- .debug_str     0x000874e5       0x74 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
+ .debug_str     0x00087515       0x74 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memchr-stub.o)
                                 0x223 (size before relaxing)
 
 .debug_line_str
